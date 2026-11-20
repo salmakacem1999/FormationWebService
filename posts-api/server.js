@@ -170,7 +170,6 @@ app.use(async (ctx, next) => {
   }
 });
 
-// 2. Body parser : JSON cassé -> 400, corps trop gros -> 413
 app.use(
   bodyParser({
     enableTypes: ['json'],
